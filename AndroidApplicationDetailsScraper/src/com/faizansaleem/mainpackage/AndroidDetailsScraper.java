@@ -35,6 +35,8 @@ public class AndroidDetailsScraper {
 
 			applicationDetails.setAppDescription(appDescriptionElement.get(0).text());
 			
+			System.out.println("Output:");
+			
 			System.out.println("Title:" + applicationDetails.getAppTitle());
 			System.out.println("Developer:" + applicationDetails.getAppDeveloper());
 			System.out.println("Description:" + applicationDetails.getAppDescription());
